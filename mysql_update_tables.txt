@@ -1,0 +1,7 @@
+INSERT INTO `school` (`name`) SELECT DISTINCT(LOWER(TRIM(`user`.`University`))) FROM `user` WHERE `user`.`University` IS NOT NULL AND `user`.`University` !='n/a' AND `user`.`University` !='' AND `user`.`University` !='other' AND `user`.`University` !='Other'  ORDER BY `user`.`University` ASC;
+INSERT INTO `membership` (`name`) SELECT DISTINCT(LOWER(TRIM(`user`.`Membership`))) FROM `user` ORDER BY `user`.`Membership` ASC;
+
+UPDATE `user` AS a LEFT JOIN `membership` AS b ON (LOWER(TRIM(a.`Membership`)) = b.`name`) SET a.`Membership` = b.`id`;
+UPDATE `user` AS a LEFT JOIN `school` AS b ON (LOWER(TRIM(a.`University`)) = b.`name`) SET a.`University` = b.`id`;
+
+ALTER TABLE `user` CHANGE `University` `University` INT NOT NULL ,CHANGE `Membership` `Membership` INT NOT NULL 

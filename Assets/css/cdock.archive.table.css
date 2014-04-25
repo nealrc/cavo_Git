@@ -1,0 +1,17 @@
+#tablewrapper{width:700px; margin:20px auto; font-family:Helvetica,Arial,sans-serif;}
+/*.ui-widget-overlay{opacity:0.5;}*/
+#singlerecordinfo{display:none;}
+
+#bodywrapper{width:700px; height:570px; margin:10px auto; overflow:auto;}
+#bodywrapper table{margin:10px 0; padding:0; width:650px;}
+
+#bodywrapper table tr {margin:0; padding:0;}
+#bodywrapper table thead th, #bodywrapper table tbody td{ 
+	margin:0;
+}
+#bodywrapper table thead tr, #bodywrapper table tbody tr{
+	border-bottom:1px solid #DDD;
+}
+
+#buttonwrapper{width:600px; margin-top:10px; margin-bottom:0;}
+#buttonwrapper a{float:right; margin-right:5px; width:16px; height:16px;}

@@ -1,0 +1,44 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/* SIGN IN form */
+
+#signin-formtop, #signin-formbody, #signin-formfooter{margin:0;}
+
+#signin-form{
+	text-align: right;
+	width: 250px;
+	padding-top:40px;
+	margin:0 auto;
+}
+form{margin:0;padding:0;}
+#signin-form p.forgotpassword{
+	font-size: 10px;
+	text-align: right;
+	width:250px;
+	height:30px;
+	margin:0;
+}
+#signin-form p.forgotpassword a{
+	color: #e60077;
+}
+#signin-form p.forgotpassword a:hover{
+	color: #e60077;
+}
+.inputwrapper{
+	width:250px;
+	height:30px;
+	padding:0;
+}
+.inputwrapper label{width:100px; text-align:left; float:left; margin:0;}
+.inputwrapper input{width:140px; float:left; margin:0;}
+
+.submitwrapper{margin:10px auto; width: 120px;}
+
+.submitwrapper .btn_red{width:120px;}
+
+/* register link  in signin form*/
+#register{margin-top:15px; text-align:center;}
+
+

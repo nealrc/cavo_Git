@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+#vfawrapper, #dictwrapper{width:980px; margin:0 auto; padding:20px 0; clear:both;}
+#vfawrapper p, #dictwrapper p{line-height:20px; letter-spacing:0.5pt; font-size:12px;}
+#inputwrapper{
+	width:600px;
+	margin:20px;
+	float:left;
+	padding:20px;
+}
+
+#inputwrapper form{width:100%; float:left;}
+#inputwrapper fieldset{padding:20px 50px;}
+#inputwrapper textarea{
+	width:500px;
+	height:150px;
+	float:left;
+}
+#inputwrapper p{width:100%; float:left;}
+
+
+#inputwrapper .btn_red{margin:10px 0;}
+#inputwrapper .right{float:right;}
+
+#resultwrapper {margin:10px 0; display:none; width:950px; padding:0; margin:20px; clear:both; float:left;}
+#resultwrapper h1{margin-bottom:10px;}
+
+#results{width:950px; margin:0; float:left;}
+#results h2{width:100%; float:left;}
+	#results h2{margin-top:20px; margin-bottom:5px;}
+
+.wordwrapper{
+	float:left; 
+	margin:8px 4px; 
+	line-height:20px; 
+	height:20px;
+}
+
+#parsestring{
+	color:#333333;
+	font-size:1.2em;
+	letter-spacing:0.1em;
+	line-height:1.5em;
+	margin:15px 0;
+	width:600px;
+	float:left;
+}
+	.llid{font-size:60%;}
+#kytags{width:300px; float:right; margin:15px 0 0 10px;}
+
+/*keywords hightlight*/
+.dl1, .dl2, .dl3, .dl4{font-style:italic; font-weight:bold; font-size:0.9em; padding:1px 2px;background-color:#fff;}
+.dl1 {color: #d2006b;} /* red */
+.dl2 {color: #a67100;} /* yellowish */
+.dl3 {color: #619a00;} /* purpple */
+.dl4 {color: #476bd6;} /* green */
+
+
+/* tool tip */
+#cluetip-title{font-size:1.6em; width:100%; float:left; text-indent:10px;}
+#cluetip-close {
+  float: right;
+  position: relative;
+  margin-right:10px;
+  background-image:url(../images/close.gif);
+  background-repeat:no-repeat;
+  background-position:0 0;
+  width:16px;
+  height:16px;
+  cursor:pointer;
+  
+}
+#cluetip-close:hover{
+	background-position:0 -16px;
+}
+#cluetip-waitimage {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  background-image: url(../images/loader-bigcircle.gif);
+}
+a.tooltip-target{cursor:pointer; color:#E60077;}
+a.tooltip-target:hover{color:#093; text-decoration:none;}
+.tooltip-content{width:350px; padding:0;}
+.tooltip-content ul{list-style: none; margin:2px 8px; padding:5px; width:324px; float:left;}
+.tooltip-content ul li{float:left; width:314px; padding:5px; margin:1px 0; font-size:1em; font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;}
+.tooltip-content ul li.py{font-style:inherit; font-family:Arial, Helvetica, sans-serif; font-size:1.5em;}
+
+/*dicitonary search */
+#search-content{marign:15px 0; width:950px; float:left;}
+#search-content ul.ui-widget-content{list-style:none; margin:10px 8px; padding:5px 8px; width:250px; float:left;}
+#search-content ul li{width:245px; padding:1px 0; margin:1px 0; clear:both; font-size:1em; font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;}
+
+
+
+/* dictionary */
+ul#dictdesp{list-style:none; width:100%;}
+ul#dictdesp li{margin:20px 5px; width:90%;}
+ul#dictdesp li h2{color:#C39;}
+
+#inputwrapper h2{font-size:1.3em; color:#C69;}
+#inputwrapper label{font-weight:bold; font-size:1em; padding:10px 5px; width:200px;}

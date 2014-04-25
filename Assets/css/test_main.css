@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+#maincontent{width:980px; margin:50px auto; padding:0;}
+#sidebar{width:250px; margin-right:20px; float:left;}
+	#sidebar h1{text-transform:uppercase;}
+	#sidebar p{text-align:justify; letter-spacing:0.25pt;}
+
+.col2{height:300px;}
+.col2 .column{height:300px;}
+.col2 .column p{height:80px;}
+
+.start_btn{margin:0 auto; width:175px;}
+.btn_red_small{width:175px; padding:3px 0; background-color: #930; color:#FFF; border:1px solid #CCC; cursor: pointer;}
+
+.tag{cursor:pointer;}
+.tag:hover{background-color: #E8E8E8;}
+
+/*.fcolumn{
+	height:200px;
+}
+}*/
+.tag p{
+	padding: 15px 10px;
+	height:100px;
+	font-size:0.9em;
+	text-align:justify;
+}
+
+/* Test Multiple Choices Hover */
+#choices li:hover{background-color:#CFF;}
+
+/* Demo : Quick Test Result Display */
+#result_details{width:510px; margin:10px 0 30px 0;float:left;}
+#result_details ul{list-style:none; width:500px;margin-left:5px;padding:0;}
+#result_details ul li{float:left;width:500px; margin:0; padding:3px 0;}
+
+
+
+.ccol{float:left; margin:0 0 20px 300px; width:700px; text-align:left;}
+.ccol ul{width:100%; float:left; margin:5px 0;}

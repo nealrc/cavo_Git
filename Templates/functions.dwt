@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>CAVO</title>
+<!-- TemplateEndEditable -->
+<link rel="stylesheet" type="text/css" href="../Assets/css/style.css" />
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+<body>
+<div id="container">
+    <div id='content-wrapper'>
+        <div id="header-wrapper">
+            <div id="header">
+                <div id="section1">
+            <div id="logo"> <img src="../Assets/images/logo.gif" /> </div>
+            <div id="menu">
+              <ul>
+                  <!--<li><a href="../Public/Modules/feedback/fb.php">Feedback</a></li>-->
+                  <li><a href="../Public/Modules/control/index.php">Control Panel</a></li>
+                  <li><a href="../Public/Modules/test/index.php">Vocabulary Test</a></li>
+                  <li><a href="../Public/Modules/demo/index.php">Demo</a></li>
+                  <li><a href="../index.php">Home</a></li>              
+              </ul>
+            </div>
+            </div><!--end SECTION1-->
+              
+            <?php if(isset($_SESSION['MM_Username'])){ ?>
+            <div id="loginstatus">
+            Welcome <?php echo $_SESSION['MM_Username']; ?> : <a href="<?php echo $profileLink;?>">My Account</a> | <a href="<?php echo $logoutAction; ?>">Sign Out</a>        
+            </div>
+            <?php } ?>
+            </div><!--end HEADER-->
+        </div><!--end HEADER-WRAPPER-->
+        
+        <div id="maincontent">
+        <!-- TemplateBeginEditable name="content" -->
+        <p>
+        Nulla quis augue eu metus eleifend tempor. Nulla non massa tellus, et lacinia mauris. Integer vitae nunc justo. Maecenas posuere neque sit amet nunc elementum dignissim. Donec lobortis ligula ut neque vehicula hendrerit? Nullam quis quam nisl. Pellentesque ut ante arcu, in pellentesque tortor. Maecenas fermentum, mi pretium egestas pulvinar, lectus risus adipiscing nisi, fringilla sagittis est tortor in turpis. Cras eu arcu a urna fermentum blandit. Donec quis quam quam. Duis iaculis varius ligula ut feugiat. Donec lacinia ligula bibendum nibh vehicula molestie. Nam pellentesque tellus sed lacus sollicitudin a pellentesque quam sagittis. Ut et risus posuere lectus euismod hendrerit.
+        </p>
+        
+        <p>
+        Nullam nec libero odio, sed fringilla neque. Cras rhoncus erat id lectus convallis condimentum. Nullam at quam nec quam suscipit tincidunt porttitor vestibulum massa. Etiam risus nulla, rhoncus vitae aliquam at, ultrices ut velit. Vivamus rutrum ornare est quis blandit. In tempus fringilla sapien porta porta! Aenean in ante elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam risus felis, interdum eget luctus ac, vulputate vel tellus. Donec adipiscing neque id leo sodales laoreet! Cras pretium, sapien quis congue sagittis, neque nisl dictum erat, vel fringilla ante quam at tellus. Vivamus ornare dignissim vulputate. Duis quis mattis arcu.
+        </p>
+        
+        <p>
+        Mauris vitae orci vitae dolor feugiat fringilla et vitae nunc. Vivamus convallis augue at erat auctor venenatis. Pellentesque orci quam, tristique ut hendrerit vel, pellentesque a ligula. Donec imperdiet mattis rhoncus? Vestibulum sollicitudin dolor tortor. Aenean pretium faucibus orci ac suscipit. Duis aliquam, neque ac accumsan ultrices, nibh nulla commodo nisi, et mattis nisl ligula in dolor. Praesent facilisis venenatis turpis eu lobortis? Duis faucibus accumsan tellus ut accumsan. Aliquam vel est a eros tincidunt egestas nec sed quam! Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse sed dui ac massa porta condimentum. Nulla semper augue ut turpis semper a feugiat magna pulvinar. Sed varius turpis at lectus semper non accumsan libero rhoncus. Phasellus condimentum enim et metus placerat et bibendum lectus volutpat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce sit amet felis quis tellus placerat porttitor. Nunc vestibulum suscipit velit, quis vulputate turpis pellentesque at! Vivamus varius tincidunt molestie.
+        </p>
+        
+        <p>
+        Donec ut mattis sapien. Vivamus quis nisi et mi aliquet ullamcorper in ac augue. Praesent laoreet convallis turpis sit amet volutpat. Ut ac nisi sed metus blandit feugiat. Integer ipsum erat, consectetur pharetra congue sed, luctus eu est. Vivamus est nulla, auctor at gravida eget, mattis tempus massa! Morbi elit massa, accumsan non condimentum nec, blandit id tortor. Vestibulum pulvinar, libero ac aliquet ornare; arcu lorem lobortis metus, non scelerisque orci dolor at mauris. Curabitur metus justo, dapibus at pulvinar vitae, placerat vel ipsum! Nullam sem neque, tincidunt vel ullamcorper eget, condimentum nec purus? Donec non porta augue. Suspendisse bibendum lacus eget arcu tincidunt tempus. Cras in odio in est suscipit ornare vitae sit amet massa.
+        </p>
+        
+        <p>
+        Praesent semper arcu at arcu suscipit iaculis. Praesent sit amet arcu augue. Cras quis vulputate nulla? Nam sodales neque a turpis gravida ultricies. Phasellus at condimentum lacus. In sollicitudin ante vitae lorem posuere feugiat. Suspendisse potenti. Aenean ac mauris lacus, et condimentum felis. Mauris dolor velit, cursus et pulvinar tempus; ornare cursus turpis. Vestibulum tincidunt odio vel dui dictum vitae sodales orci convallis. Phasellus nec neque ante, a pulvinar lacus. Cras molestie dapibus lacus sodales porta. In vehicula dui in mauris posuere a pulvinar sem egestas. Pellentesque nunc dui, sodales ut congue in; tempor scelerisque nulla. Vestibulum mollis aliquam diam, at ullamcorper ligula luctus vel. Sed ut nulla id diam dignissim dictum et ut ante.
+        </p>                    
+          <!-- TemplateEndEditable -->
+        </div><!--end MAINCONTENT-WRAPPER-->
+        <div class="push">&nbsp;</div>
+    </div><!--content-wrapper-->
+  
+    <div id="footer-wrapper">
+        <div id="footer">
+        
+        <div class="column">
+          <h2>NEALRC</h2>          
+            <p><a href="http://nealrc.osu.edu">National East Asian Languages Resource Center</a><br />
+              <br />
+            <img src="../Assets/images/NEALRClogo.jpg" width="50" height="50" />            </p>
+        </div>
+        
+        <div class="column">
+          <h2>Contact Us:</h2>
+          <p>The Ohio State University<br />
+100 Hagerty Hall, 1775 College Road<br />
+Columbus, OH 43210-1340 U.S.A.<br />
+<br />
+Phone: (614) 688-3080<br />
+Fax: (614) 688-3355<br />
+Email: li.28@osu.edu          </p>
+        </div>
+        
+        
+        <div class="column">
+          <h2>Our Friends:</h2>
+          <p>
+          	<a href="http://alpps.org/">Advanced Performance Portfolio System</a><br />
+            <a href="http://chineseflagship.osu.edu/">Chinese Flagship Program</a><br />
+            <a href="http://flpubs.osu.edu/">Foreign Language Publications</a><br />
+            <a href="http://www.osu.edu/">The Ohio State University</a><br /><br />
+			<a href="http://alpps.org/"><img src='../Assets/images/logo-alpps.gif' /></a>&nbsp;
+            <a href="http://chineseflagship.osu.edu/"><img src='../Assets/images/logo-cfp.gif' /></a>&nbsp;
+            <a href="http://flpubs.osu.edu/"><img src='../Assets/images/FLPlogo.gif' /></a>&nbsp;
+            <a href="http://www.osu.edu/"><img src='../Assets/images/logo-osu.gif' /></a>&nbsp;
+            
+          </p>
+        </div>
+        
+        
+        <div class="column last">
+          <p>Copyright © 2013 National East Asian Languages Resource Center <br/>
+            <!--<a href="http://validator.w3.org/check/referer">XHTML</a> | <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a></p>-->
+        </div>
+        
+        </div><!--end FOOTER-->
+    </div><!--end FOOTER-WRAPPER-->
+</div>
+</body>
+</html>

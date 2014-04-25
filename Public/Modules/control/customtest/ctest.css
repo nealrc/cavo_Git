@@ -1,0 +1,18 @@
+.ui-widget-header tr th{padding:0; border:none;}
+.ui-widget-content tr:hover{background:none; border:none;}
+.ui-widget-content tr td{padding:0; border:none; text-align:center;}
+.ui-widget-footer tr{background:#none;}
+.ui-widget-footer tr td{text-align:center; padding:0;}
+.firstcell{border:none;}
+.lastcell{border:none;}
+tr.alt{background:none;}
+.notes{font-style:italic; color:#33F;}
+
+h1,h2{float:left; width:100%;}
+.alignleft{width:300px;float:left; margin-top:3px;}
+.alignright{width:250px;float:left; text-align:right; margin-top:3px;}
+.formtextarea{float:left;}
+#inputform{width:100%; float:left;}
+
+.kywdwrapper{width:100px;float:left;}
+.kywdlwrapper{width:700px; float:left;margin:1px 0;}

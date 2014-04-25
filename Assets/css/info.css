@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+
+#infowrapper{width:980px; margin:0 auto; clear:both; font-family: Verdana, Geneva, sans-serif;}
+#infowrapper h1{margin:10px 0 20px 0; font-size:5em; font-weight:500; font-family:"Times New Roman", Times, serif; letter-spacing:0.1pt;}
+.titledate{font-size:0.3em; padding-left:10px; font-style:italic;}
+#infowrapper h2{margin:15px 0 5px  0; font-weight:300; font-size:1.5em; width:100%;float:left;}
+
+#infowrapper ol{margin:5px 0 10px 0; padding:10px; list-style-position:inside; float:left; width:950px;}
+#infowrapper ol li{float:left; margin:5px;}
+
+#infowrapper blockquote {font-size:1.3em; font-style:italic; margin-top:5px; margin-bottom:30px;}
+
+.prettytable{
+	width: 600px;
+	margin-top:20px;
+	margin-left:30px;
+	margin-bottom:20px;
+	margin-right:0;
+	float:left;
+	clear:both;
+}
+
+.tablefootmsg{
+	padding: 0 10px 5px 0;
+	width: 600px;	 
+	font: italic 12px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	text-align: right;
+	color:#E60077;
+}
+caption {
+	padding: 0 0 5px 0;
+	width: 600px;	 
+	font: 2em "Times New Roman", Times, serif;
+	text-align: left;
+}
+
+th {
+	font: bold 11px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	color: #4f6b72;
+	border-left: 1px solid #C1DAD7;
+	border-right: 1px solid #C1DAD7;
+	border-bottom: 1px solid #C1DAD7;
+	border-top: 1px solid #C1DAD7;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 6px 6px 6px 12px;
+	background: #CAE8EA url(../../Assets/images/bg_header.jpg) no-repeat;
+}
+
+th.nobg {
+	border-top: 0;
+	border-left: 0;
+	border-right: 1px solid #C1DAD7;
+	background: none;
+}
+
+td {
+	border-left: 1px solid #C1DAD7;
+	border-right: 1px solid #C1DAD7;
+	border-bottom: 1px solid #C1DAD7;
+	background: #fff;
+	padding: 6px 6px 6px 12px;
+	color: #4f6b72;
+	text-align:center;
+}
+
+td.alt {
+	background: #F5FAFA;
+	color: #797268;
+}
+
+th.spec {
+	border-left: 1px solid #C1DAD7;
+	border-top: 0;
+	background: #fff url(../../Assets/images/bullet1.gif) no-repeat;
+	font: bold 10px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+}
+
+th.specalt {
+	border-left: 1px solid #C1DAD7;
+	border-top: 0;
+	background: #f5fafa url(../../Assets/images/bullet2.gif) no-repeat;
+	font: bold 10px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	color: #797268;
+}

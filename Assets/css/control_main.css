@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+#maincontent{width:980px; margin:0 auto; padding:50px 0;}
+#sidebar-left{width:250px; margin:0; margin-bottom:30px; float:left; height:550px;}
+#content-right{width:700px; margin:0; float:right;}
+
+#sidebar-left ul{list-style:none; margin:0; padding:0;width:250px; float:left;}
+#sidebar-left ul li{width:230px; float:left; padding:10px 0; margin:0 10px; border-top:1px solid #D6D6D6; cursor:pointer;}
+#sidebar-left ul li.first{border:0px;}
+
+#sidebar-left ul li h2{width:100%; margin-top:10px; margin-bottom:5px; color:#E60077;}
+#sidebar-left ul li img{width:25px; float:left; margin-right:5px;}
+#sidebar-left ul li p {width:190px; float:right; margin:0; padding:0; font-size:0.9em; letter-spacing:0.05em;}
+
+
+/*charts*/
+#chartwrapper{}
+.chbody{width:700px; height:250px; float:left; margin-bottom:30px;}
+
+/* loading (setting, calibration) */
+.loading{background-image:url("../../../Assets/images/busy.gif"); background-repeat:no-repeat; background-position: center center; }
+
+
+/* user activation wrapper */
+ol#activationwrapper {width:100%; margin:20px 0;  list-style:inside; float:left;}
+ol#activationwrapper li {list-style:none; width:100%; margin:0; padding:0;}
+ol#activationwrapper li ul {width:100%; margin:0; padding:0; list-style:none; float:left;}
+ol#activationwrapper li ul li{float:left; margin:1px 15px 1px 5px; padding:1px; width:auto;}
+ol#activationwrapper label{}
+ol#activationwrapper li.namewrapper{width:150px; }
+ol#activationwrapper li.rolewrapper{width:120px; font-weight:bold;}
+ol#activationwrapper li.schoolwrapper{width:300px; font-weight:bold; font-size:1.1em;}
+
+h2{margin-top:30px; margin-bottom:10px;}
+
+#footer h2{margin-top:0px;}
+
+.ui-widget-header tr th{padding:8px 10px; border-bottom:5px double #C9C; border-top:5px double #C9C;}
+.ui-widget-content tr:hover{background-color:#FCF; border-bottom:1px solid #666;}
+.ui-widget-content tr td{padding:5px 10px; border-bottom:1px solid #ccc; text-align:center;}
+.ui-widget-footer tr{background-color:#666;}
+.ui-widget-footer tr td{text-align:center; padding:5px 0;}
+.firstcell{border-left:1px solid #666;}
+.lastcell{border-right:1px solid #666;}
+
+
+tr.alt{background-color:#E6E3FA;}
+
+
+/* reports */
+#reprotlinks ul{list-style:none;margin:20px 0;padding:0;}
+#reprotlinks ul li{float:left;width:100%; margin:10px 0; padding-top:5px; height:32px; min-height:32px;text-indent:35px;}
+#reprotlinks ul li#a{background-image:url(../images/creport.png);background-repeat:no-repeat;}
+#reprotlinks ul li#b{background-image:url(../images/history.png);background-repeat:no-repeat;}
+#reprotlinks ul li#c{background-image:url(../images/stats.png);background-repeat:no-repeat;}
+#reprotlinks ul li#d{background-image:url(../images/school.png);background-repeat:no-repeat;}
+#reprotlinks ul li a{font-size:1.5em; color:#0a67a3;}
+
+.ccr{width:650px; padding:10px; margin:0 auto;}
+
+/* title hightlight */
+.thighlight{color:#E60077;}
+
+#maincontent p a{text-decoration:underline; color:#06C;}
+#maincontent p a:hover{color:#C93;}
+
+#yrlist h3{text-align:left; text-indent:10px;}
+#yrlist ul li{width:125px;float:left; margin:5px;}
+#yrlist ul li  a{text-decoration:underline; color:#06C;}
+#yrlist ul li  a:hover{color:#C93;}

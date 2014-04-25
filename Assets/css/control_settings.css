@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* CSS Document */
+.setting_info {margin:20px 0; width:100%; float:left;}
+.setting_info ul{list-style:none; margin:0; padding:0;}
+.setting_info ul li{margin:2px 0; padding:5px; width:620px; float:left;}
+.divleft{float:left; width:30px;}
+.divright{float:right; margin:2px; width:586px;}
+
+.setting_info p{text-indent:20px; width:100%; margin:10px 0; float:left; clear:both;}
+
+#caliresult{
+	float:right; 
+	width:386px; 
+	padding:10px 5px; 
+	height:60px; 
+	overflow:auto;
+	font-style:italic; 
+	font-size:1em; 
+	font-family:"Courier New", Courier, monospace;}
+.loading{
+	background-position:380px 15px;
+}
+
+#caliinfo{display:none;}
+
+.editable{text-decoration:underline;}
+
+.prettytable{
+	width: 600px;
+	margin-top:20px;
+	margin-left:30px;
+	margin-bottom:20px;
+	margin-right:0;
+	float:left;
+}
+
+caption {
+	padding: 0 0 5px 0;
+	width: 600px;	 
+	font: italic 11px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	text-align: right;
+}
+
+th {
+	font: bold 11px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	color: #4f6b72;
+	border-right: 1px solid #C1DAD7;
+	border-bottom: 1px solid #C1DAD7;
+	border-top: 1px solid #C1DAD7;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 6px 6px 6px 12px;
+	background: #CAE8EA url(../../Assets/images/bg_header.jpg) no-repeat;
+}
+
+th.nobg {
+	border-top: 0;
+	border-left: 0;
+	border-right: 1px solid #C1DAD7;
+	background: none;
+}
+
+td {
+	border-right: 1px solid #C1DAD7;
+	border-bottom: 1px solid #C1DAD7;
+	background: #fff;
+	padding: 6px 6px 6px 12px;
+	color: #4f6b72;
+	text-align:center;
+}
+
+td.alt {
+	background: #F5FAFA;
+	color: #797268;
+}
+
+th.spec {
+	border-left: 1px solid #C1DAD7;
+	border-top: 0;
+	background: #fff url(../../Assets/images/bullet1.gif) no-repeat;
+	font: bold 10px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+}
+
+th.specalt {
+	border-left: 1px solid #C1DAD7;
+	border-top: 0;
+	background: #f5fafa url(../../Assets/images/bullet2.gif) no-repeat;
+	font: bold 10px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	color: #797268;
+}

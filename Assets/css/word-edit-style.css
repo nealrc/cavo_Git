@@ -1,0 +1,42 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#addwrapper{width:980px; margin:0 auto; padding:20px 0; clear:both;}
+
+#newWord{
+	display: block;
+	float: left;
+}
+
+form{
+	text-align: left;	
+}
+
+form label{
+	display: block;	
+	margin-top: 10px;
+}
+
+#wordAlert{
+	display: none;
+}
+
+#pyInput {
+	display: block;
+	height: 20px;
+	margin: 3px;
+	width: 400px;
+}
+
+.pyAss {
+	cursor: pointer;
+	display: block;
+	float: left;
+	font-size: 12px;
+	width: 15px;
+}
+
+.notes{font-size:1em; font-weight:normal; font-style:italic; color:#E60077;width:450px;margin-top:2px; margin-bottom:10px;}
+.meaning{margin:10px 0;}
+
+#r{margin-left:10px;}

@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+#userinfo,#testing,#testing2, #finishtest, #testcache, #score {display:none;}
+#testdisplay,#testdisplay2{margin-top:10px; font-family: Arial, Helvetica, sans-serif;}
+
+#choices, #choices2{float:left; margin-top:5px; margin-left:20px; width:90%; height:175px;}
+	#choices ul, #choices2 ul{ list-style:none;}
+	#choices li,#choices2 li{ float:left; width:95%; padding:2px; margin:3px; font-size:14px;}
+		#choices li input, #choices2 li input{ width:5%; float:left;}
+		#choices li label, #choices2 li label{margin-left:5px; width:85%; float:left;  cursor: pointer;}
+
+#testsubmit, #testsubmit2{ float:right; margin-right:30px; margin-bottom:2px; width:150px;}
+	#testsubmit input, #testsubmit2 input{width:120px; height:35px; font-size:14px; padding:5px; background-color:#990000; color:#FFFFFF;}
+
+#qwrapper, #qwrapper2{ 
+float:left; 
+margin:5px; 
+padding:2px; 
+width: 50%; 
+font-size:18px; 
+font-weight:bold; 
+color:#0066CC; 
+}
+#indicator{
+float:right;
+margin-right:20px;
+margin-top:5px;
+padding:3px;
+width:40%;
+color: #999999;
+font-size:14px;
+font-weight:bold;
+}
+#questioncount, #testsubject, #qtot, #questioncount2, #testsubject2, #qtot2{float:left; width:auto;}
+.txt{float:left; width:auto; margin:0 10px;}
+#testerror, #testerror2 {float:left; width:90%; margin-left:15px; margin-top:2px; margin-bottom:2px; }
+
+.smallloading{ 
+background-image:url("../images/busy.gif"); 
+background-repeat:no-repeat; 
+background-position: center center; 
+width:20px;
+height:20px;
+}
+
+#userinfo, #finishtest{margin:15px;}
+#score li, #userinfo li, #finishtest li {font-size:12px; margin-left:15px; padding:5px; list-style-position:inside;}
+
+#score {margin:10px;}
+#score  h3{margin-left:15px;}
+#score ul {list-style:none; margin-top: 10px;}
+.score{text-align:center; font-size:24px; color:#9a096c;}
+
+#testlist ul li#CN, #testlist ul li#EN, #testlist ul li#PY, #testlist ul li#PE{ background-image:none;}
+#testlist ul li{width:650px; padding:5px; height:100px; margin:20px 5px; vertical-align:middle; overflow:hidden;}
+#testlist ul li .imgholder{float:left; margin-left: 5px; width:100px; position:relative;}
+#testlist ul li .testinfo {
+float:right;
+width:280px;
+font-size:14px;
+color: #0099CC;
+margin-right:5px; 
+margin-top:10px;
+letter-spacing:0.05em;
+line-height:20px;
+position:relative;
+}
+#testlist ul li a{
+float:left; 
+text-decoration:none; 
+border:none; 
+font-size:14px;  
+margin-left:10px;
+margin-top:40px; 
+width:240px;
+position:relative;
+}
+#testlist li a:hover{text-decoration:none; border:none;}
+
+.ihot { background-color: #F4FEFF;}
+.ihover {background-color: #FFFF66; cursor: pointer;}
+
+
+/* inside  USERINFO start test button wrapper */
+#userinfo p{width:500px; margin:3px 0; float:left; padding:8px 0;}
+#userinfo p label{width:300px; float:left;}
+#userinfo p input{width:50px; float:left; margin-right:10px;}
+#starttest{float:right; margin:20px 0; width:150px;}
+#submit1{ width:100px; padding:5px; background-color:#06F; color:#FFF;}
+
+/* custom test */
+.col2 li{width:100%; float:left; margin:3px 0;}
+.ctesttp, .ctestbt{width:600px; float:left;}
+.ctestbt{ margin-top:3px; font-size:1.1em; padding:2px 0;}
+.ctestlt{width:300px; float:left; font-size:1.2em;}
+.ctestrt{width:250px; float:left; font-style:italic;}
+
+a.test{border-bottom:5px solid #15931c;}
+a.test:hover{text-decoration:none; border-bottom:5px solid #e90077;}

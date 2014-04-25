@@ -1,0 +1,5 @@
+@charset "utf-8";
+/* CSS Document */
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight
+{background: url("../js/jquery.ui/css/flick/images/ui-bg_flat_55_aac7e3_40x100.png") repeat-x scroll 50% 50% #FFFFFF;}
+.ui-widget-header{color:#0073ea;}

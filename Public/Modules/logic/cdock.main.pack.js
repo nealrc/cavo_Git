@@ -1,0 +1,1 @@
+$(document).ready(function(){$("#sidebar-left").find("li").each(function(){$(this).click(function(){var a;switch($(this).attr("id")){case "report":a="reports.php";break;case "profile":a="profile.php";break;case "user":a="user.php";break;case "settings":a="settings.php";break;case "stats":a="stats.php"}window.location=a})})});

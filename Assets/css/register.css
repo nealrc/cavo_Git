@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*REGISTER*/
+#registration{
+	padding: 0px 25px 20px;
+	text-align: left;
+	margin:0;
+}
+#registration h1{padding:15px 0;}
+#registration h2{color: #C6C;}
+#registration label, #registration input{
+	margin: 7px 0px 2px 0px;
+	width: 200px;
+}
+.item-wrap{
+	padding-bottom: 20px;	
+}
+.inputfirst{
+	float: left;
+}
+.inputlast{
+	float: right;	
+}
+#registration label{
+	font-size: 11px;
+	text-indent: 5px;
+}
+select{
+	margin: 10px 0px 5px 0px;
+}
+
+input#native_yes, input#native_no{width:20px;}
+
+#btn_submit_register{margin: 0px 0px 0px 650px;}
+
+/* Server validation result */
+#regresult{
+	width:800px;
+	margin:0 auto;
+	padding:8px 25px;;
+}
+#regresult p{margin:3px 0 0 30px; width:300px; line-height:1em;}
+
+#regresult ol{width:100%; margin:0; padding:0; float:left;}
+#regresult ol li{width: 300px; float:left; margin-left:20px;}
+
+#register_wrapper_left, 
+#register_wrapper_right{
+	float:left;
+	width:420px;
+	padding:10px;
+}
+#register_wrapper_left{border-right:1px solid #CCC;}
+
+/* Fancy Box  - Register form box style */
+.fancyboxw-wrapper{width: 960px; margin:10px auto; clear:both; height:500px;}
+.fancyboxw-top{
+	background: url(../images/fancyboxw-g-top.png) no-repeat center;
+	height: 65px;
+	width: 960px;
+}
+
+/* heading - green*/
+.fancyboxw-top h1{
+	color: #FFF;
+	padding: 30px 0px 0px 20px;
+	letter-spacing: normal;
+	text-shadow: none;
+}
+.fancyboxw-content{
+	background: url(../images/fancyboxw-fill.png) repeat-y center;
+	width: 960px;
+	margin:0;
+/*	height:400px;*/
+}
+.fancyboxw-content .smallbox{
+	width:930px;
+	padding:5px 25px;;
+}
+.fancyboxw-content p{margin-left:30px; width:930px; line-height:25px;}
+.fancyboxw-content a{color:#36C;}
+
+.fancyboxw-bottom{
+	background: url(../images/fancyboxw-bottom.png) no-repeat center;
+	height: 25px;
+	width: 960px;
+	margin:0;
+}
