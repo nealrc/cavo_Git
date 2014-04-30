@@ -4,6 +4,11 @@ if (!isset($_SESSION)) {
   session_start();
 }
 
+
+
+//hanning test: let's see if git will commit this change......
+
+
 // ** Logout the current user. **
 $logoutAction = $_SERVER['PHP_SELF']."?doLogout=true";
 if ((isset($_SERVER['QUERY_STRING'])) && ($_SERVER['QUERY_STRING'] != "")){
